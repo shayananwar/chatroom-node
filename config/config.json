@@ -1,0 +1,10 @@
+{
+	"pages":{
+		"index":{
+				"title":"Chat Room",
+				"render":"index",
+				"style":"style.css",
+				"scripts":["socketio.js", "jquery.js"]
+				}
+	}
+}
