@@ -28,6 +28,7 @@ var server = http.createServer(app);
 var io = require('socket.io')(server);
 
 io.on('connection', function(socket){
+  // io.emit('clients', JSON.stringify(socket));
   socket.on('chat message', function(msg){
     io.emit('chat message', msg);
   });
