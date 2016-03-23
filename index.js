@@ -3,6 +3,7 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
 app.get('/', function(req, res){
+	console.log('shayan');
   res.sendFile(__dirname + '/index.html');
 });
 
