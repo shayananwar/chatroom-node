@@ -22,7 +22,6 @@ function includes(app,express,path){
 	//   	resave: false,
 	//   	saveUninitialized: true
 	// }));
-	
 	app.use(express.static(path.join(__dirname, '../public')));
 }
 
